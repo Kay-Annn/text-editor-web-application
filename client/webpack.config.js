@@ -10,7 +10,7 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: '../src/js/index.js',
+      main: './src/js/index.js',
       install: './src/js/install.js'
     },
     output: {
@@ -18,11 +18,21 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      new HtmlWebpackPlugin({
+        template:'./index.html', 
+        title: 'Webpack Plugin'
+      })  
     ],
 
     module: {
-      rules: [
+      rules: [{
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
         
       ],
     },
