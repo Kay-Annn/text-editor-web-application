@@ -8,7 +8,7 @@
   ### - [Description](#Description)
   ### - [Technologies](#Technologies)
   ### - [Usage](#Usage)
-  ### - [Screenshot](#ScreenshotofDeployment)
+  ### - [Screenshot](#Screenshot)
   ### - [Questions](#Questions)
 
 ## Description:
