@@ -8,6 +8,7 @@
   ### - [Description](#Description)
   ### - [Technologies](#Technologies)
   ### - [Usage](#Usage)
+  ### - [Deployment](#Deployment)
   ### - [Screenshot](#Screenshot)
   ### - [Questions](#Questions)
 
@@ -26,7 +27,10 @@ You can install this project by cloning the GitHub repo:   https://github.com/Ka
 ## Usage:
 This editor can be used to make quick notes, save code snippets and jot down any information you wish to save for later use. 
 
-Screenshot of Deployment: 
+## Deployment
+https://great-text-editor.herokuapp.com/
+
+## Screenshot of Deployment: 
 ![image](https://user-images.githubusercontent.com/56706010/216801588-cfcca17c-0eaf-4b39-835e-0707387a3140.png)
 
 ## Questions:
